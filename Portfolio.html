@@ -4,92 +4,140 @@
     <meta charset="utf-8">
     <title>Bati Kadir Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="styy.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="https://kit.fontawesome.com/492785c0ff.js" crossorigin="anonymous"></script>
+
   </head>
+
+
 <body>
 
-  <section>
-    <input type="checkbox" id="check">
-    <header>
-      <h2> <a href="#Home" class="logo" id="Home">Bati.kadir</a></h2>
-      <div class="navigation">
-        <a href="#Home">Home</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-      </div>
-      <label for="check">
-        <i class="fas fa-bars menu-btn"></i>
-        <i class="fas fa-times close-btn"></i>
-      </label>
 
-    </header>
-    <div class="content" id="Home">
-      <div class="info">
-        <h1>GET TO KNOW ME</h1>
-        <p>I'm a driven Software/Application Development student with a growing interest in web design and development.
-          Currently building skills to become a software developer. I have interned with SuperWebPros as a user interface designer and usability tester,
-          where I learned to collaborate effectively, solve design challenges, and organized UI designs. Hackathon DFW 2021
-          participant, with no prior coding knowledge, I teamed up with my peers to complete a project called Bink leveraging some of
-          the design skills I learned through self-directed learning and the internship with tools such as Figma and WordPress.
-          My goal is to gain more experience and grow into a product designer role or related field and work for a company that
-          will provide opportunities for professional and personal development while adding excellent value to the organization.</p>
-        <a href="#" class="info-btn">Learn More</a>
-      </div>
+
+
+  <!-- Navigation -->
+  <nav>
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+      <i class="material-icons">&#xe3c7;</i>
+    </label>
+
+    <label class="logo" id="logo">&lt;BK&gt;</label>
+    <div class="navigation">
+      <a href="#home"><i class='fas fa-home'></i></i>  Home </a>
+      <a href="#"><i class='fas fa-user-alt'></i>  About</a>
+      <a href="#gallery"><i class='fas fa-file-invoice'></i>  Project</a>
+      <a href="#contact"><i class='fas fa-phone-alt'></i>  Contact</a>
     </div>
 
     <div class="media-icons">
       <a href="https://www.instagram.com/bat.ikadir/"><i class="fab fa-instagram"></i></a>
     </div>
-    <hr style="border-top: 1px solid black;">
-  </section>
-<article>
-<div class="projects" id="projects">
-  <h1 class="projh1">Projects</h1>
-  <div class="designs">
 
-    <div class="fm">
-      <img class="rb" src="bink.png" alt="bink" style="border: 0.5px solid black; border-radius: 5px;" width="300" height="250">
-      <div class="middle">
-        <a class="text" href="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FGk3Kb6ZUjIUZgHl7SAU4FQ%2FBINK%3Fnode-id%3D2%253A4%26scaling%3Dscale-down%26page-id%3D0%253A1%26starting-point-node-id%3D2%253A4">View Design</a>
+  </nav>
+ 
+
+<!-- Landing Page -->
+<div class="home" id="home">
+  <img class="backimg"src="homeimg 1.png" alt="background image">
+    <div class="content-container" id="Home">
+      <div class="landing-info">
+        <h1>Bati Kadir</h1>
+        <p>Software development Student.</p>
+
+      <div class=" info-btn">
+        <a href="#"><p>_____</p></a>
       </div>
     </div>
-    <div class="fm">
-      <img class="rb" src="speedy.png" alt="img" style="border:0.5px solid black; border-radius: 5px;" width="300" height="250">
-      <div class="middle">
-        <a class="text" href=https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FO27dDbpJbZu2rHZHv3QmBF%2FSpeedy---Parking-finder%3Fnode-id%3D75%253A0%26scaling%3Dscale-down%26page-id%3D0%253A1>View Design</a>
-      </div>
-    </div>
-    <div class="fm">
-      <iframe class="rb" style="border: 0.5px solid black; border-radius: 5px;" width="300" height="250" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FG7O2kluu8n9IksLGoTjpBe%2FUntitled%3Fscaling%3Dscale-down%26page-id%3D0%253A1%26node-id%3D1%253A2" allowfullscreen></iframe>
-      <div class="middle">
-        <div class="text">
-          <a href="https://www.figma.com/proto/G7O2kluu8n9IksLGoTjpBe/Untitled?scaling=scale-down&page-id=0%3A1&node-id=1%3A2">View Design</a>
+  </div>
+
+
+
+<!-- PROJETS SECTION   -->
+<div class="about">
+  <h3>Get to know me</h3>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit magnam voluptates molestiae ea cumque harum praesentium maxime obcaecati mollitia dicta explicabo voluptatem laboriosam, voluptatum accusantium est, repellendus modi dolorum vel?</p>
+</div>
+<div class="projects">Projects</div>
+<div class="gallery-section" id="gallery">
+
+    <div class="gallery"> <!-- image card-->
+      <h4 class="captio">Bink</h4>
+      <div class="image-section">
+        <img class="img" src="bink.png" alt="image">
+        <div class="caption">
+          <a href="https://rb.gy/olzvem">UI Project</a>
         </div>
       </div>
     </div>
-    <div class="fm">
-      <iframe class="rb" style="border: 0.5px solid black; border-radius: 5px;" width="300" height="250" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FGejvG4GHoG3JYF7xEl8iRN%2FUntitled%3Fnode-id%3D5%253A5%26scaling%3Dscale-down%26page-id%3D0%253A1" allowfullscreen></iframe>
-      <div class="middle">
-        <div class="text">
-          <a href="https://www.figma.com/proto/GejvG4GHoG3JYF7xEl8iRN/Untitled?scaling=scale-down&page-id=0%3A1&node-id=15%3A4">View Design</a>
+
+    <div class="gallery">
+      <h4 class="captio">Learning Platform</h4>
+      <div class="image-section">
+        <img class="img" src="edu.png" alt="image">
+        <div class="caption">
+
+          <a>UI Design</a>
         </div>
       </div>
     </div>
 
-  </div>
-  </div>
-  <hr style="border-top: 1px solid black;">
-</article>
-<div class="contactt" id="contact">
-    <h4>CONTACT</h4>
-      <p>Email: <a href="mailto:bkadir@dfw.yearup.org">bkadir@dfw.yearup.org</a></p>
-      <p>Phone: <a href="tel:+16828123645">(682) 812 3645</a></p>
+      <div class="gallery">
+        <h4 class="captio">Parking Finder</h4>
+        <div class="image-section">
+          <img class="img" src="vision.png" alt="image">
+          <div class="caption">
+
+            <a>UI Design</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery">
+        <h4 class="captio">Car Collections Website</h4>
+        <div class="image-section">
+          <img class="img" src="tesla.png" alt="image">
+          <div class="caption">
+            <a>UI Design</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery">
+        <h4 class="captio">Podcast App</h4>
+        <div class="image-section">
+          <img class="img" src="podcast.png" alt="image">
+          <div class="caption">
+
+            <a href="https://rb.gy/hkv2qp">UI Design</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery"> <!-- image card-->
+        <h4 class="captio">Portfolio</h4>
+        <div class="image-section">
+          <img class="img" src="portfolio.png" alt="image">
+          <div class="caption">
+
+            <a>Web</a>
+          </div>
+        </div>
+      </div>
 
 </div>
 
-  <footer>
-      <p class="copy">Copyright &copy; Bati Kadir 2021</p>
-  </footer>
-  </body>
-  </html>
+</div>
+  <div class="contact-container" id="contact">
+    <h4>CONTACT</h4>
+      <p> <i class="fas fa-envelope-square"></i> Email: <a href="mailto:Bkadir@dfw.yearup.org">Bkadir@dfw.yearup.org</a></p>
+      <p><i class="fas fa-phone-square"></i> Phone: <a href="tel:+16828123645">(682) 812 3645</a></p>
+  </div>
+  <footer class="footer">
+    <p class="">Copyright &copy; Bati Kadir 2021</p>
+</footer>
+
+
+</body>
+</html>
